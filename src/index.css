@@ -5,3 +5,12 @@
 .my-container {
   @apply w-[90%] mx-auto max-w-[350px];
 }
+.my-card {
+  @apply w-[90%] mx-auto max-w-[300px];
+}
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}

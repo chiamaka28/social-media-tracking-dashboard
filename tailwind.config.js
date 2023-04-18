@@ -18,6 +18,7 @@ export default {
         cardText: "hsl(228, 34%, 66%)",
         white: "hsl(0, 0%, 100%)",
       },
+      fontFamily: {},
     },
   },
   plugins: [],

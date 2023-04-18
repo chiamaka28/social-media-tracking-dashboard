@@ -68,13 +68,10 @@ const data = [
 
 const Section = () => {
   return (
-    <div>
-      <h2>Overview-Today</h2>
-      <div>
-        {data.map((d, idx) => (
-          <Overviews data={d} key={idx} />
-        ))}
-      </div>
+    <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-wrap lg:justify-center">
+      {data.map((d, idx) => (
+        <Overviews data={d} key={idx} />
+      ))}
     </div>
   );
 };

@@ -49,7 +49,7 @@ const data = [
 const Socials = () => {
   return (
     <div>
-      <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap lg:justify-center">
+      <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap lg:justify-center mt-[-50px]">
         {data.map((d, idx) => (
           <Card data={d} key={idx} />
         ))}
