@@ -1,6 +1,6 @@
 const Overviews = ({ data }) => {
   return (
-    <div className="my-card w-[90%] bg-cardBg m-3 p-3 rounded-md lg:w-[250px] lg:m-3">
+    <div className="my-container w-[90%] bg-cardBg m-3 p-3 rounded-md max-w-[350px] lg:w-[250px] lg:m-3">
       <div className="flex justify-between items-center pb-5">
         <p className="text-[12px] text-cardText">{data.title}</p>
         <div>

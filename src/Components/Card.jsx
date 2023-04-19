@@ -1,7 +1,7 @@
 const Card = ({ data }) => {
   return (
     <div
-      className={`my-container flex flex-col items-center  ${data.bg} m-5 rounded-md lg:w-[250px] lg:m-3  `}
+      className={`my-container flex flex-col items-center  ${data.bg} m-5 rounded-md max-w-[350px] lg:w-[250px] lg:m-3  `}
     >
       <div className="bg-cardBg w-[100%] flex flex-col items-center mt-1 rounded-md p-5">
         <div className="flex justify-center items-center gap-2">

@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .my-container {
-  @apply w-[90%] mx-auto max-w-[350px];
+  @apply w-[90%] mx-auto;
 }
-.my-card {
-  @apply w-[90%] mx-auto max-w-[300px];
+.body-container {
+  @apply w-[90%] mx-auto max-w-[1100px];
 }
 
 @layer base {
